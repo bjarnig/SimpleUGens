@@ -1,16 +1,3 @@
-
-// To install home-brew:
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
-
-// Install cmake with homebrew
-brew install cmake
-
-// The source code for SuperCollider should be downloaded.
-http://sourceforge.net/projects/supercollider/files/Source/
-
-// Run Cmake with link to the source
-cmake -DSC_PATH=/Users/bjarni/Dev/SuperCollider/supercollider-3.9 -DCMAKE_OSX_ARCHITECTURES='i386;x86_64'
-
 ////////////////////////////////////////////////////////////////
 //
 //                   (Simple) Custom UGens
