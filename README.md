@@ -1,3 +1,18 @@
+## SimpleUGens
+***
+Sources for 10 UGens for SuperCollider covering various bases such as:
+- Waveforms
+- Noises
+- Buffers
+- Iterative functions
+- Processing
+- Delay lines
+- FFT 
+- Demand rates
+
+The sources can be compiled with cmake:
+
+```javascript
 
 // To install home-brew:
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
@@ -10,6 +25,12 @@ http://sourceforge.net/projects/supercollider/files/Source/
 
 // Run Cmake with link to the source
 cmake -DSC_PATH=/Users/bjarni/Dev/SuperCollider/supercollider-3.9 -DCMAKE_OSX_ARCHITECTURES='i386;x86_64'
+
+```
+
+Once compiled, copy the .scx and .sc files to the extensions folder of SuperCollider. Example of usage:
+
+```javascript
 
 ////////////////////////////////////////////////////////////////
 //
@@ -144,3 +165,4 @@ SimpleEcho.ar(Impulse.ar(10)) * 0.5
 }.play
 
 )
+```
