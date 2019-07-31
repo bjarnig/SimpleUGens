@@ -1,5 +1,5 @@
 ## SimpleUGens
-***
+
 Sources for 10 UGens for SuperCollider covering various bases such as:
 - Waveforms
 - Noises
